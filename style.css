@@ -1,0 +1,97 @@
+.error-message {
+    display: none;
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    /* align-self: flex-end; */
+    width: 100%;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    color: #ffff;
+}
+.form-sec{
+    padding: 2rem;
+    background: #028cf3;
+    background-size: cover;
+}
+.form-container {
+    width: 90%;
+    margin: 0 auto;
+}
+.form-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    /* border: 2px solid; */
+}
+.title h4{
+    /* color: #ffff; */
+    font-weight: 600;
+    font-size: 24px;
+}
+.inp-box {
+    display: flex;
+    /* background: aquamarine; */
+    width: 50%;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.inp-label {
+    width: 30%;
+    display: flex;
+    justify-content: end;
+}
+.user-inp{
+    padding: 0.4rem 2.8rem;
+    font-size: 14px;
+}
+button.submit-btn {
+    color: #028CF3;
+    padding: 10px 18px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    border: 2px solid #f1e4e4;
+    /* overflow: hidden; */
+    background: #ffff;
+    
+}
+/* .first-name-input{
+    padding: 0.4rem 2.8rem;
+    font-size: 14px;
+}
+.lname-input-box {
+    display: flex;
+    width: 50%;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.last-name-input{
+    padding: 0.4rem 2.8rem;
+    font-size: 14px;
+}
+.email-input{
+    padding: 0.4rem 2.8rem;
+} */
+/* .gender-input-box{
+    display: flex;
+    width: 50%;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.email-input-box{
+    display: flex;
+    width: 50%;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.phone-input-box{
+    display: flex;
+    width: 50%;
+    gap: 10px;
+    flex-wrap: wrap;
+} */
